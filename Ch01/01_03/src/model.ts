@@ -2,7 +2,10 @@ let displayName: string = "Jess's standing desk";
 let inventoryType: string = "furniture";
 let trackingNumber: string = "FD123455";
 let createDate: Date = new Date();
-let originalCost: number = 425;
+let originalCost: any = 425;
+originalCost = "A lot of Money!"
+//gradual typing 
+// type inference
 
 function getInventoryItem(trackingNumber: string): {
     displayName: string;
